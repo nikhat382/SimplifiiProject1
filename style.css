@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Manrope:wght@500&family=Montserrat:wght@200;300;400;500;600&family=Open+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&family=Poppins:ital,wght@0,700;1,400;1,900&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,900;1,100;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Libre+Baskerville:wght@400;700&family=Manrope:wght@500&family=Montserrat:wght@200;300;400;500;600&family=Open+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600;1,700&family=Poppins:ital,wght@0,700;1,400;1,900&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,900;1,100;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", serif;
+  background-color: #f4f4f2;
+  font-size: 13px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+.header-bar .innercontainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.header-bar {
+  background-color: #c81631;
+}
+.innercontainer {
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+.header-bar a {
+  background-color: #8e0016;
+  color: white;
+  font-size: 12px;
+  margin-right: 1px;
+  text-decoration: none;
+  padding: 10px 32px;
+  font-family: "Open Sans", serif;
+}
+.outer-header {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+#navbar-upper {
+  background: white;
+}
+.navbar > .innercontainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar > .innercontainer .navbar_wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  background: white;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 20;
+}
+#navbar-upper .nav_type {
+  flex: 0 0 300px;
+  z-index: 12;
+  background-color: white;
+}
+.nav_type {
+  display: inline-block;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+}
+.nav_type img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+#navbar-upper .navbar_menu {
+  flex: 1 1 90%;
+  opacity: 1;
+}
+#navbar-upper .navbar_menu .menu {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 700px;
+}
+.menu .menu_list {
+  color: #272727;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  /* padding: 5px 5px 29px; */
+}
+.navbar_wrapper button {
+  width: 52px;
+  z-index: 12;
+  background-color: #ffffff;
+  margin: 10px 10px;
+  border: none;
+  padding: 5px 2px;
+}
+.navbar_wrapper button i {
+  font-size: 20px;
+}
+
+main .main_heroSection {
+  width: 100vw;
+}
+.main_heroSection section {
+  height: 75vh;
+  background-image: url(./images/asset9.png);
+  background-size: cover;
+  background-position: center top;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  background-color: rgba(0,0,0,.4);
+  background-blend-mode: multiply;
+}
+.heroSection_textBox {
+  background-color: black;
+  opacity: 0.4;
+  z-index: 1;
+}
+.text_sectionDiv {
+  position: absolute;
+}
+
+.text_sectionDiv h1 {
+  font-weight: 600;
+  font-size: 3rem;
+  margin-bottom: 1rem !important;
+  align-items: center;
+  letter-spacing: 1px;
+  font-family: "Libre Baskerville", serif;
+}
+.text_sectionDiv p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.text_sectionDiv a {
+  color: white;
+  background-color: #c81631;
+  border-color: #c81631;
+  margin-right: 8px;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  padding: 0.625rem 2rem;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+  border-radius: 0.5rem;
+  letter-spacing: 1px;
+  font-family: "Open Sans", serif;
+}
+.secondSection {
+  background-color: #f4f4f2;
+}
+
+.dataContainer {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+.secContainer {
+  padding: 48px 0;
+}
+
+.main-container
+  {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    padding: 36px 30px;
+
+}
+
+.main-container > p{
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 991px) {
+  .nav_menu {
+    display: none;
+  }
+  .main-container{
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+}
